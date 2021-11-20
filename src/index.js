@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Tiles} from './Dashboard';
+import Dashboard from './Dashboard';
+import './index.css';
 
 
-ReactDOM.render(<Tiles/>, document.getElementById('root')
-);
+ReactDOM.render(<Dashboard/>, document.getElementById('root'));
 
