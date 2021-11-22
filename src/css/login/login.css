@@ -1,0 +1,65 @@
+.loginBox{
+    width: 90vw;
+    max-width: 1170px;
+    margin: 2rem auto;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+}
+
+.login-label{
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: PruSansOT2Demi;
+}
+
+.login-input, .password-input{
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+}
+
+.login-input{
+    margin-top: 50px;
+}
+
+.password-input{
+    margin-top: 20px;
+}
+
+
+.log-button{
+    margin-top: 30px;
+    width:300px;
+    height: 40px;
+    justify-self: center;
+    border-radius: 0.5rem;
+    background: #D959AC;
+}
+
+.log-button:hover{
+    background: #8C1F52;
+
+}
+
+.login-input::placeholder,.password-input::placeholder {
+    color: gray;
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+.login-link-div{
+    margin-top:30px;
+}
+
+.login-link{
+    text-decoration: none;
+    color: black;
+}
+

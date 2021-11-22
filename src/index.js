@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Dashboard from './Dashboard';
 import './index.css';
+import Login from './js/login/Login'
 
-
-ReactDOM.render(<Dashboard/>, document.getElementById('root'));
+ReactDOM.render(<Login/>, document.getElementById('root'));
 
