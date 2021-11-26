@@ -1,11 +1,10 @@
 import './header.css';
 import logo from './logo.png'
 import {useEffect, useState } from 'react';
-
-
-
+import {useNavigate} from 'react-router-dom';
 
 const Header = () => {
+    const navigate = useNavigate();
     let counter = 1;
     let randomTextes = [
         'Życia nie można wybrać, ale można z niego coś zrobić.',
@@ -17,6 +16,9 @@ const Header = () => {
     ];
     const[text, setText] = useState(randomTextes[0]);
 
+    function logToApp() {
+        navigate('/login')
+    }
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -35,7 +37,7 @@ const Header = () => {
             <div className='title'>AS w IT i wszystko o tym  jak rozpocząć przygodę w świecie IT</div>
             <div className='smart-quote'>{text}</div>
         </div>
-        <button className='login-button'>Zaloguj</button>
+        <button  onClick={() => logToApp()}  className='login-button'>Zaloguj</button>
     </div>
 }
 

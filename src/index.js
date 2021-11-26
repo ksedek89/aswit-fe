@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Dashboard from './Dashboard';
+import App from './App';
 import './index.css';
-import Login from './js/login/Login'
 
-ReactDOM.render(<Login/>, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
 

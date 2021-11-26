@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 import '../../css/login/login.css'
 import logo from '../../common/logo.png'
 
@@ -26,12 +26,12 @@ const Login = () =>{
         </div>
         <div className={'login-label'}>Logowanie użytkownika</div>
         <input value={login} onInput={e => setLogin(e.target.value)} className={'login-input'} type='text' placeholder={'Login'}/>
-        <input value={password} onInput={e => setPassword(e.target.value)}  className={'password-input'} type='text' placeholder={'Hasło'}/>
+        <input type='password' value={password} onInput={e => setPassword(e.target.value)}  className={'password-input'}  placeholder={'Hasło'}/>
         <button className={'log-button'} onClick={() => logToApp()}>Zaloguj się</button>
-        <div className={'login-link-div'}>
-            <a className={'login-link'} href='/'>Nie pamiętam hasła</a>
+        <div className='login-link-div'>
+            <a className='login-link' href='/'>Nie pamiętam hasła</a>
             &nbsp;/&nbsp;
-            <a className={'login-link'} href='/'>Zarejestruj się</a>
+            <a className='login-link' href='/'>Zarejestruj się</a>
         </div>
     </div>
 }

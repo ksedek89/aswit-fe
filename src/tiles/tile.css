@@ -1,7 +1,7 @@
 .tilelist {
     width: 90vw;
     max-width: 1170px;
-    margin: 5rem auto;
+    margin: 2rem auto;
     display: grid;
     gap: 2rem;
 }
