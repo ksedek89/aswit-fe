@@ -37,7 +37,7 @@ const Header = () => {
             <div className='title'>AS w IT i wszystko o tym  jak rozpocząć przygodę w świecie IT</div>
             <div className='smart-quote'>{text}</div>
         </div>
-        <button  onClick={() => logToApp()}  className='login-button'>Zaloguj</button>
+        <button  onClick={() => logToApp()}  className='login-button'>Zaloguj się</button>
     </div>
 }
 
