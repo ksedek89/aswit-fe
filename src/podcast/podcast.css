@@ -1,0 +1,14 @@
+.podcast-wrapper{
+    display: grid;
+    grid-gap: 2rem;
+    gap: 2rem;
+    background: #fff;
+    border-radius:1rem;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.podcast-title{
+    font-size: 30px;
+    font-weight: bold;
+}

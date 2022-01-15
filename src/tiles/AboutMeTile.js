@@ -9,11 +9,7 @@ const AboutMeTile = (props) => {
         navigate('/o-mnie')
     }
 
-
-
-
     return <div  className={"tile about-me " +  (props.classname || "")}>
-
         <div>
             <h2 className='about-me-title'>Cześć, hej!</h2>
             <hr className={"horizontal-line"}/>
