@@ -3,9 +3,11 @@ import Login from './login/Login'
 import Dashboard from './Dashboard'
 import AboutMe from "./about-me/AboutMe";
 import Podcast from "./podcast/Podcast";
+import WorkCard from "./work-card/WorkCard";
 
 const App = () =>
-    <BrowserRouter>
+    <WorkCard mainTitle="Prezenty" subtitle="Pobierz Case Study projektu AS w IT" signInLabel="Zapisz się i odbierz swój prezent" buttonName="Pobierz Kartę"></WorkCard>
+/*    <BrowserRouter>
         <div className='wrapper'>
             <Routes>
                 <Route path="/"  element={<Dashboard/>}/>
@@ -14,6 +16,6 @@ const App = () =>
                 <Route path="/podcast" element={<Podcast/>}/>
             </Routes>
         </div>
-    </BrowserRouter>
+    </BrowserRouter>*/
 
 export default App;

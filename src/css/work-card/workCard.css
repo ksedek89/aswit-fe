@@ -1,0 +1,173 @@
+
+
+.card {
+    background-color: white;
+    width: 90vw;
+    max-width: 1170px;
+    margin: 100px auto;
+    border-radius:1rem;
+    padding: 30px;
+}
+
+.title{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Barrio';
+    font-size: 52px;
+}
+
+.subtitle{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: Arsenal;
+}
+
+.signInLabel{
+    margin-top: 100px;
+    padding: 10px;
+    font-size:20px;
+    font-family: Arsenal;
+}
+
+.input-graphics{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+.inputs{
+    display: grid;
+    grid-template-rows:  repeat(3, 1fr);
+}
+
+.work-car-img{
+    margin: 0px auto;
+    width: 370px;
+    height: 350px;
+}
+
+@media screen and (max-width: 1024px) {
+    .work-car-img{
+        display: none;
+    }
+
+    .input-graphics{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+.single-input{
+    background-color: lightgrey;
+    margin: 10px;
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: JosefinSansThin;
+    border-style: none;
+    box-shadow: 2px 2px #CBCBCB;
+
+}
+
+.single-input:focus{
+    outline: none;
+}
+
+.single-input::placeholder{
+    font-family: JosefinSansThin;
+    color: black;
+    font-weight: bold;
+    opacity: 0.5;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.agreed{
+    margin: 10px;
+    font-family: JosefinSansThin;
+    font-size: 14px;
+    color: black;
+}
+
+.boxes{
+    padding-left: 10px;
+}
+
+.custom-checkbox{
+    display: none;
+}
+
+.custom-checkbox + label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    font-family: JosefinSansThin;
+    color: black;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.custom-checkbox + label:last-child {
+    margin-bottom: 0;
+}
+
+.custom-checkbox + label:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #6cc0e5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.6;
+    -webkit-transition: all 0.12s, border-color 0.08s;
+    transition: all 0.12s, border-color 0.08s;
+}
+
+.custom-checkbox:checked + label:before {
+    width: 10px;
+    top: -5px;
+    left: 5px;
+    border-radius: 0;
+    opacity: 1;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.download-button{
+    margin-top: 50px;
+}
+
+.download-button::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f101";
+    color: white;
+    padding-right: 10px;
+}
+
+.fas{
+    font-family: JosefinSansThin;
+    padding-right: 20px;
+}
+
+.logo-bez-tla{
+    justify-content: right;
+    display: grid;
+}
+
+.logo-bez-tla-img{
+    width: 250px;
+    height: 250px;
+    padding-right: 20%;
+}
