@@ -1,6 +1,6 @@
-import '../css/about-as/about-as.css';
-import dziendobry from '../img/dzien_dobry.png'
-import szlaczek from '../img/szlaczek.png'
+import '../../css/about-as/about-as.css';
+import dziendobry from '../../img/dzien_dobry.png'
+import szlaczek from '../../img/szlaczek.png'
 
 
 const AboutAsDetails = (props) => {

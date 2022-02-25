@@ -1,4 +1,4 @@
-import '../css/dashboard/dashboard.css';
+import '../../css/dashboard/dashboard.css';
 import Header from "../header/header";
 import MainPage from "../main-page/main-page";
 

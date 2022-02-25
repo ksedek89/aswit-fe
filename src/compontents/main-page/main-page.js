@@ -1,7 +1,7 @@
-import '../css/main-page/main-page.css'
-import oAs from '../img/o_as.png'
-import asBlog from '../img/as_blog.png'
-import asPodcast from '../img/as_podcast.png'
+import '../../css/main-page/main-page.css'
+import oAs from '../../img/o_as.png'
+import asBlog from '../../img/as_blog.png'
+import asPodcast from '../../img/as_podcast.png'
 import {useNavigate} from 'react-router-dom';
 
 const MainPage = (props) => {

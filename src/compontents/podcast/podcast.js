@@ -1,7 +1,7 @@
-import './podcast.css'
+import '../../css/podcast/podcast.css'
 import Header from "../header/header";
 import PodcastTile from "./podcast-tile";
-import podcast from '../img/podcast.png'
+import podcast from '../../img/podcast.png'
 
 const Podcast = (props) => {
     return (

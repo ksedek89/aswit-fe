@@ -1,4 +1,4 @@
-import './podcast-tile.css'
+import '../../css/podcast/podcast-tile.css'
 
 
 const PodcastTile = (props) => {

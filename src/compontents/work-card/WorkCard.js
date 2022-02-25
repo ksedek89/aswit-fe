@@ -1,7 +1,7 @@
-import '../css/work-card/workCard.css'
+import '../../css/work-card/workCard.css'
 import {useState} from "react";
-import kartaPracy from '../img/karta_pracy.png'
-import logoBezTla from '../img/logo_bez_tla.png'
+import kartaPracy from '../../img/karta_pracy.png'
+import logoBezTla from '../../img/logo_bez_tla.png'
 
 
 const WorkCard = (props) => {

@@ -1,6 +1,6 @@
-import './podcast-details.css'
+import '../../css/podcast/podcast-details.css'
 import Header from "../header/header";
-import podcast1 from '../img/podcasts/podcast1.png'
+import podcast1 from '../../img/podcasts/podcast1.png'
 
 const PodcastDetails = (props) => {
     const message = 'No results.\nPlease try another search term.';
