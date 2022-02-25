@@ -8,9 +8,9 @@ const Podcast = (props) => {
         <div className='podcast-div'>
             <Header/>
             <img className='img-podcast' src={podcast}/>
-            <PodcastTile title='Podcast # 10 - zamknięcie pierwszego sezonu' url='https://widget.spreaker.com/player?episode_id=42772842&theme=light&playlist=show&playlist-continuous=true&chapters-image=true&autoplay=false&live-autoplay=true' />
-            <PodcastTile title='Podcast # 10 - zamknięcie pierwszego sezonu' url='https://widget.spreaker.com/player?episode_id=42772842&theme=light&playlist=show&playlist-continuous=true&chapters-image=true&autoplay=false&live-autoplay=true' />
-            <PodcastTile title='Podcast # 10 - zamknięcie pierwszego sezonu' url='https://widget.spreaker.com/player?episode_id=42772842&theme=light&playlist=show&playlist-continuous=true&chapters-image=true&autoplay=false&live-autoplay=true' />
+            <PodcastTile title='Podcast # 10 - zamknięcie pierwszego sezonu' url='https://widget.spreaker.com/player?episode_id=47923138&theme=light&playlist=false&playlist-continuous=false&chapters-image=true&episode_image_position=right&hide-logo=false&hide-likes=false&hide-comments=false&hide-sharing=false&hide-download=true' />
+            <PodcastTile title='Podcast # 10 - zamknięcie pierwszego sezonu' url='https://widget.spreaker.com/player?episode_id=47923138&theme=light&playlist=false&playlist-continuous=false&chapters-image=true&episode_image_position=right&hide-logo=false&hide-likes=false&hide-comments=false&hide-sharing=false&hide-download=true' />
+            <PodcastTile title='Podcast # 10 - zamknięcie pierwszego sezonu' url='https://widget.spreaker.com/player?episode_id=47923138&theme=light&playlist=false&playlist-continuous=false&chapters-image=true&episode_image_position=right&hide-logo=false&hide-likes=false&hide-comments=false&hide-sharing=false&hide-download=true' />
         </div>
     )
 }

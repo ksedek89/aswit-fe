@@ -11,6 +11,10 @@
     height: 150px;
 }
 
+.logo:hover{
+    cursor: pointer;
+}
+
 .newsletter{
     text-decoration: none;
     color: black;
