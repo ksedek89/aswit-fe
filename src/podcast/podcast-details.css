@@ -1,0 +1,50 @@
+.podcast-details{
+    background-color: white;
+    margin-top: 20px;
+}
+
+.title-podcast{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: Arsenal;
+}
+
+.main-section{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.podcast-img{
+    max-width: 100%;
+}
+
+.podcast-iframe-details{
+    height: 200px;
+    width: 98%;
+    margin-left: 15px;
+    padding-bottom: 20px;
+}
+
+.main-section{
+    padding-left: 10px;
+    padding-top:20px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+
+.container-podcast-main{
+    padding-right: 10px;
+    font-family: JosefinSansThin;
+    font-size: 30px;
+}
+
+.podcast-download-button{
+    margin-top: 20px;
+}
+
+.text-podcast{
+    line-height: 40px;
+    white-space: pre-wrap;
+}

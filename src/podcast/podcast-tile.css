@@ -1,0 +1,24 @@
+.podacst-tile-wrapper{
+    margin-top: 20px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.podcast-title{
+    padding: 20px 0px 20px 20px;
+    text-align: left;
+    font-family: Arsenal;
+    font-size: 30px;
+}
+
+.podcast-iframe{
+    height: 200px;
+    width: 98%;
+    margin-left: 15px;
+}
+
+.podcast-buttons-section{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}

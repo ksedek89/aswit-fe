@@ -1,0 +1,58 @@
+
+.about-as, .blog-as{
+    margin-top: 20px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    justify-items: center;
+    align-items: center;
+}
+
+.about-as-label-description, .blog-as-label-description{
+    font-family: Arsenal;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+.about-as-img, .blog-as-img{
+    max-width: 100%;
+    min-width: 60%;
+    width: 80%;
+    padding-right: 20px;
+}
+
+.blog-as-group-panel{
+    padding-left: 50px
+}
+
+
+.podcast-as{
+    margin-top: 20px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    justify-items: center;
+    align-items: center;
+}
+
+.podcast-as-label-description{
+    font-family: Arsenal;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.podcast-as-img{
+    max-width: 100%;
+    min-width: 60%;
+    width: 80%;
+    padding-right: 20px;
+}
+
+
+.podcast-grid{
+    padding-left: 25%;
+}

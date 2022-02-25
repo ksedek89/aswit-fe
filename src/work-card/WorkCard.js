@@ -30,7 +30,7 @@ const WorkCard = (props) => {
                         <label htmlFor="box-1">Pobierając kartę pracy, zapisujesz się do newslettera i wyrażasz zgodę na przesyłanie Ci informacji o nowościach w AS w IT.
                             <br/>Zgodę będziesz mogła w każdej chwili wycofać a szczegóły związane z przetwarzaniem danych osobowych w polityce prywatności.</label>
                     </div>
-                    <button className='fas fa-angle-double-right download-button'>{props.buttonName}</button>
+                    <button className='download-button'>{props.buttonName}</button>
 
 
                 </div>

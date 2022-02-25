@@ -1,0 +1,32 @@
+.img-about-as{
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.grid-about-as{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 20px;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.text-about-as{
+    line-height: 30px;
+    font-family: JosefinSansThin;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+
+}
+
+.header-about-as{
+    font-family: Barrio;
+    font-size: 25px;
+}
+
+.img-about-as-szl{
+    margin-left: -300px;
+    height: 1200px;
+}

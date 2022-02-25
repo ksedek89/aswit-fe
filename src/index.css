@@ -2,10 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Roboto;
-
 }
-
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -27,16 +24,6 @@ body {
   margin: 0rem auto;
 }
 
-video {
-  width: 100%;
-  height: 100%;
-  background: black;
-}
-
-iframe{
-  width: 100%;
-}
-
 
 
 
@@ -47,18 +34,52 @@ button {
   color: white;
   border-radius: 2.0rem;
   border: 2px solid white;
-  background-color: #4785d9;
-  outline:1px solid #4785d9;
   height: 60px;
   width: 300px;
   justify-self: center;
+  color: black;
 }
-
 
 button:hover{
-  background-color: #4785f9;
   cursor: pointer;
 }
+
+button::before{
+  font-family: "Font Awesome 5 Free";
+  content: "\f101";
+  color: white;
+  padding-right: 10px;
+}
+
+.yellow-button{
+  outline:1px solid #f7d232;
+  background-color: #f7d232;
+}
+
+.yellow-button:hover{
+  background-color: #f7d232;
+}
+
+
+.blue-button{
+  background-color: #4785d9;
+  outline:1px solid #4785d9;
+}
+
+.blue-button:hover{
+  background-color: #4785d9;
+}
+
+
+.green-button{
+  outline:1px solid #a9c77a;
+  background-color: #a9c77a;
+}
+
+.green-button:hover{
+  background-color: #a9c77a;
+}
+
 
 
 .horizontal-line{
@@ -69,10 +90,6 @@ button:hover{
   width: 15%;
 }
 
-
-input {
-
-}
 
 /*  CUSTOM FONTS  */
 @font-face {
@@ -90,4 +107,14 @@ input {
 @font-face {
   font-family: 'JosefinSansThin';
   src: local('JosefinSansThin'),  url('./fonts/Josefin_Sans/JosefinSans-Thin.ttf') format('truetype');
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+iframe{
+  width: 100%;
 }

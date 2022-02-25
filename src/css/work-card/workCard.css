@@ -1,5 +1,3 @@
-
-
 .card {
     background-color: white;
     width: 90vw;
@@ -147,18 +145,6 @@
 
 .download-button{
     margin-top: 50px;
-}
-
-.download-button::before{
-    font-family: "Font Awesome 5 Free";
-    content: "\f101";
-    color: white;
-    padding-right: 10px;
-}
-
-.fas{
-    font-family: JosefinSansThin;
-    padding-right: 20px;
 }
 
 .logo-bez-tla{

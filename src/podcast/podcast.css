@@ -1,14 +1,13 @@
-.podcast-wrapper{
-    display: grid;
-    grid-gap: 2rem;
-    gap: 2rem;
-    background: #fff;
-    border-radius:1rem;
-    padding: 1rem 2rem;
-    text-align: center;
+.img-podcast{
+    margin-top: 20px;
+    max-width: 100%;
 }
 
-.podcast-title{
-    font-size: 30px;
-    font-weight: bold;
+.podcast-wrapper{
+    margin-top: 20px;
+    background-color: white;
+
+}
+.podcast-div{
+    margin-bottom: 200px;
 }
