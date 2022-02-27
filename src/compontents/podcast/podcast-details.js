@@ -1,9 +1,11 @@
 import '../../css/podcast/podcast-details.css'
 import Header from "../header/header";
 import podcast1 from '../../img/podcasts/podcast1.png'
-
+import {useParams} from "react-router-dom";
 const PodcastDetails = (props) => {
-    const message = 'No results.\nPlease try another search term.';
+    let{podcastId} = useParams();
+    console.log(podcastId);
+
     return (
         <div className='podcast-details'>
             <Header/>
@@ -17,7 +19,6 @@ const PodcastDetails = (props) => {
                 </div>
                 <img className='podcast-img' src={podcast1}/>
             </div>
-            <div>Sekcja komentarzy TODO</div>
        </div>
     )
 }
